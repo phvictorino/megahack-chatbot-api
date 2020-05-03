@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "megahack-276101",
+  "private_key_id": "1958210eca3d62ca052f42d610abdf7a8bd516f2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCenSiKvC71jXAv\njUtbWxxBDrA10N14OmtkBdNClLbBBZv+13OQbXIxe3J+DhuP3P/lCQ45NyjgSkm1\nHU1oyvILJV0GWUZ+V7SJ0UaA1PdJ1wsg0RP1ODlBKywfyigI9SjL4dQf4XOjDPfh\nIx4wjvF5DH9LqJjCMFds5TiIi67e8/qLUtQ4e7ZwbXIbp1o24f0Eyi460r+5hSKL\nZRLBKsKRmUIp6mF2c3Fk8FqXw7f8K6xlCR/vrpl7zEl9DZim5EuOPJwAXV4A9H/V\nRmRvooLQOE7A70MAq/8mkaBFoCn1WjQ4rHibh4GgFpbh5CDqbeBQcoJhNANjOtlv\nwS/v00VFAgMBAAECggEAArhnTZnUpFl8pxQhSrvRTDxYQVQHuFwoI1sGOIocaEsU\nVdaUINH/t2GKoSbUyi7cJK13FPwhM1eS1Axgm39/jzlg0w8M6nXOnt57+xGr/BQ4\nGKP9V6NTOA7pftIUxbKOtJB29uUC+rTqO25CwkpxUcYpGL8Xf50cor17rrvWj/RQ\nVfEC0xQcAO0A4928Eqy/pOtQLAFgZIj0RoFoZW24XWFa9sf9NQN5lcVQRLJx05jx\nYLW1rAL14OlydWJdktvHV8kpkVg8HlfocD08Qj/lXdPQLub/22n2SbKuFsKwuWB3\nRdKtxaERkNbAC/fcw86Odfn+W+vRNgROAcs76oM4AQKBgQDYEA0eZx/W257xOJQL\nfkxjvIMdqZ0Gnnqf4IrXn1ljr/qjSuYzCjBx4cdl+9kU6WtyYeJhVXMji/vmQ7co\nMSXtzYrrA4QqgQ94Hn3lLHUXbj/aTzp91icNd+TStvSOvqYCBFylOQED8rGmiBXk\nRrIRwog+XNhlDh7j1Q8tKN3HgQKBgQC77qqpCv8oOmKWjcBq3qkdAIskw9/+0doK\niMLLVxYzW05fEVyN2ldcJ2WHvQG/wtw/GiKO1jdi1Yw0HdGqfLlPRoAv9g+Ho2s6\nssIBqERIXvf/Nqzaey/Um1KoybW+uohRkbQhqdmUBMgKJs77HuCkhoX5yY5g4Cbi\n59m08RA/xQKBgB9831yR7Nr0MMq40yKFqn5Sh8033dGMIRTRtYpNB8r2Z5GKpdfE\nYWEHZXbgaDea+PS3fTVwLZJ9oR1iuvuZhgyNCvTLE2TaYDXCQ9i1TO84OwgGyeBy\n6EgXM/rdfPCcqjbbCeFuWE6J/QfnB0G4Z9Ucw5xLDaJUl33enBKZxRCBAoGAeCVL\nAatAGM3KvYl+HFShNSNl0WlQSK6MgPOR5UGVtduHrQuCakXOV+Hv7OmOtrOy7ryc\nn0igPBVd/uuZYS8/oUjnJsJeh06YfPxPP5P9o27jiUvBEiRzHa73F2VtRbQm9k76\nJBNcQF8WLDdHWBATedtux5Rt680hzyp+akk7JCkCgYEAq0+dxcfSvA3clNMNOlXy\ngZSka0NImY98szn1lTlHu1f2xyV7hp5OqiyXH/2kwwV9a5zq+U9iFRQXBOmoEp2c\nQuYBFNGe2XVvCIkaHyZ7ucWujFB+6WJoS8JRq7+0SAtyg5HaXKU6yct6XEKkIAhw\nIwSBit11mOZ5jQwsJCJ+lPs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "megahack@megahack-276101.iam.gserviceaccount.com",
+  "client_id": "107905047487308066012",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/megahack%40megahack-276101.iam.gserviceaccount.com"
+}
