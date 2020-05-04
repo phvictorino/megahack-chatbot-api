@@ -11,6 +11,11 @@ import uploadConfig from '../config/upload';
 const upload = multer(uploadConfig);
 
 const chatbotRouter = Router();
+
+chatbotRouter.get('start', (req, res) => {
+  return res.json({ message: 'online!' });
+});
+
 chatbotRouter.post('/', upload.single('file'), async (req, res) => {
   try {
     const { file } = req;
