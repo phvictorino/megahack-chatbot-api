@@ -11,7 +11,7 @@ const upload = multer(uploadConfig);
 
 const chatbotRouter = Router();
 
-chatbotRouter.get('start', (req, res) => {
+chatbotRouter.get('/', (req, res) => {
   return res.json({ message: 'online!' });
 });
 
