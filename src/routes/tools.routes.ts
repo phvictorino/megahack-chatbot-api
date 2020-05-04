@@ -2,7 +2,6 @@ import { Router } from 'express';
 
 import multer from 'multer';
 
-import path from 'path';
 import speech from '@google-cloud/speech';
 import fs from 'fs';
 import uploadConfig from '../config/upload';
@@ -20,8 +19,8 @@ chatbotRouter.post('/', upload.single('file'), async (req, res) => {
   try {
     const { file } = req;
     const client = new speech.SpeechClient();
-    const file = fs.readFileSync(file.path);
-    const audioBytes = file.toString('base64');
+    const fileRead = fs.readFileSync(file.path);
+    const audioBytes = fileRead.toString('base64');
     const audio = {
       content: audioBytes,
     };
@@ -37,10 +36,13 @@ chatbotRouter.post('/', upload.single('file'), async (req, res) => {
     };
 
     // Detects speech in the audio file
+    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+    // @ts-ignore
     const [response] = await client.recognize(request);
     return res.json(response);
   } catch (err) {
     console.log(err);
+    return res.status(400).json({ message: 'Error' });
   }
 });
 export default chatbotRouter;
