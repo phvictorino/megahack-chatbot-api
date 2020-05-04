@@ -23,7 +23,6 @@ chatbotRouter.post('/', upload.single('file'), async (req, res) => {
     const config = {
       enableAutomaticPunctuation: true,
       encoding: 'WAV',
-      sampleRateHertz: 48000,
       languageCode: 'pt-BR',
       model: 'default',
     };
